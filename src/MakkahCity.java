@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class MakkahCity {
-	int delet = 2;
+	
 
 	private static final ArrayList<Campaign> listOfCampaigns = new ArrayList<>();
 
