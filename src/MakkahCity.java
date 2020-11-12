@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class MakkahCity {
+	int delet = 2;
 
 	private static final ArrayList<Campaign> listOfCampaigns = new ArrayList<>();
 
@@ -53,6 +54,8 @@ public class MakkahCity {
 			}
 			System.out.println("v1 "+ v.getCurrentLocation()+ " " + v.getCurrentStreet().getName().name());
 			System.out.println("v2 "+ v2.getCurrentLocation()+ " " + v.getCurrentStreet().getName().name());
+			
+			
 			//TODO: [2]add civil cars in loop iterations. (noise)
 			//noise based on time of day (From PDate)
 			//TODO: [3]Move busses and vehicles.
